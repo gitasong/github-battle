@@ -1,4 +1,5 @@
 const React = require('react');
+const ReactDOM = require('react-dom');
 
 // this.state
 // lifecycle methods
@@ -13,3 +14,8 @@ class App extends React.Component {
     )
   }
 }
+
+ReactDOM.render(
+  <App />,
+  document.getElementByID('app');
+)
