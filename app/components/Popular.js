@@ -5,7 +5,7 @@ class Popular extends React.Component {
     const languages = ['All', 'Ruby', 'Java', 'CSS', 'Python'];
 
     return (
-      <ul>
+      <ul className='languages'>
         {languages.map((language) => {
           return (
             <li key={language}>
