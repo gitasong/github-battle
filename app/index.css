@@ -1,3 +1,8 @@
 body {
-  background-color: salmon;
+  font-family: -apple-system,BlinkMacSystemFont,SeguoeUI,Roboto, Oxygen-Sans,Ubuntu,Cantarell,Hevetica-Neue,sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
